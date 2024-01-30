@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- robot Font CDN -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- main css file + css Reset  -->
+
+    <title>Color generator</title>
+</head>
+<body>
+
+        <div class="container">
+            <section id="section">
+                <h1 id="heading1">Color Generator Tool</h1>
+                
+                    <form action="#" id="myForm">
+
+                        <!-- range inputs -->
+               <span class="values redValue">Red :  0</span>  <input type="range" name="red"   class="r-range red" value="0" min="0" max="255">   
+               <span class="values greenValue">Green :0</span>  <input type="range" name="green" class="g-range green" value="0" min="0" max="255"> 
+               <span class="values blueValue">Blue : 0</span>  <input type="range" name="blue"  class="b-range blue" value="0" min="0" max="255">  
+                        <!-- button -->
+                <button id="generatorBtn">Generate Color</button>
+                        <!-- shows the rgb code of the color -->
+            
+                        <div class="result">RGB = 255,255,255</div>
+                    </form>
+
+                    <!-- shows the generated color -->
+                    <div class="creator">Coded By Sajjad Hakemzade</div>
+            </section>
+            
+        </div>
+            <script src="scripts/script.js"></script>
+    
+</body>
+</html>
